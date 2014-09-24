@@ -5,14 +5,12 @@ def user_chooses_operation
   gets.chomp.downcase
 end
 
-
 # user enters numbers to perform the operation
 def number_choice_one
   puts "Now I need two numbers to use with that operator."
   puts "Type your first number: "
   gets.chomp.to_i
 end
-
 
 def number_choice_two
   puts "Type your second number to complete the calcuation:"
